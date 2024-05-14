@@ -7,7 +7,7 @@ const Post = (props) => {
       <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745"></img>
       {props.message}
       <div>
-        <span>Like</span>
+        <span>Like: {props.likesCount}</span>
       </div>
     </div>
   );
